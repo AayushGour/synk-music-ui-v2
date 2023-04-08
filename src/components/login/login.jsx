@@ -33,7 +33,7 @@ const LoginComponent = (props) => {
         <div className='login-container h-full w-100 flex flex-row justify-center items-center bg-transparent'>
             <div className="login-card min-w-[50%] w-auto lg:w-1/2 md:w-[80%] sm:w-[90%] h-[60%] bg-light shadow-xl shadow-primary-blue rounded-xl flex flex-col justify-center items-center">
                 <div className='logo-container pb-8'>
-                    <h3 className='font-title text-7xl leading-7xl'>synk</h3>
+                    <h3 className='font-title text-7xl leading-7xl'>sy<span className='text-[3.6rem] tracking-[5px]'>NK</span></h3>
                     <h4 className='text-4xl'>MUSIC</h4>
                 </div>
                 <form onSubmit={loginHandler} className="w-auto sm:w-[90%] md:w-[80%]  flex flex-col gap-6 mx-auto mt-8">
